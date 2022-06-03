@@ -2,7 +2,8 @@
 This project is to segment the cerebral cortex into layers using diffusion MRI based on von Economo atlas. 
 
 # Dependencies
-It needs following software: Freesurfer, mrtrix, LAYNII, python, and matlab. Some matlab codes about spherical harmonic (euler2rotationMatrix.m, getSHrotMtx.m, getTdesign.m, SphHarmonic.m, t_designs_1_21.mat) need be download at https://github.com/polarch/Spherical-Harmonic-Transform. lh.colortable.txt, rh.colortable.txt,  lh.economo.gcs, and rh.economo.gcs are need be download from Supplementary material in > Scholtens LH, de Reus MA, de Lange SC, Schmidt R, van den Heuvel MP. An MRI Von Economo - Koskinas atlas. Neuroimage. 2018 Apr 15;170:249-256. doi: 10.1016/j.neuroimage.2016.12.069
+It needs following software: Freesurfer, mrtrix, LAYNII, python, and matlab. Some matlab codes about spherical harmonic (euler2rotationMatrix.m, getSHrotMtx.m, getTdesign.m, SphHarmonic.m, t_designs_1_21.mat) need be download at https://github.com/polarch/Spherical-Harmonic-Transform. lh.colortable.txt, rh.colortable.txt,  lh.economo.gcs, and rh.economo.gcs are need be download from Supplementary material in 
+> Scholtens LH, de Reus MA, de Lange SC, Schmidt R, van den Heuvel MP. An MRI Von Economo - Koskinas atlas. Neuroimage. 2018 Apr 15;170:249-256. doi: 10.1016/j.neuroimage.2016.12.069
 
 Running
 
