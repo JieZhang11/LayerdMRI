@@ -3,9 +3,9 @@ This project is to segment the cerebral cortex into layers using diffusion MRI d
 
 "Cerebral Cortex Layer Segmentation Using Diffusion MRI in vivo with Applications to Laminar Connections and Working Memory Analysis", Jie Zhang, Zhe Sun, Feng Duan, Liang Shi, Yu Zhang, Jordi Solé-Casals1, and Cesar F. Caiafa, *xxxxx xxxx*, xx, xx, 2022 (under review).
 
-The Figure below shows the pipeline to obtain layer segmentation from Diffusion MRI data.
+Figure 1 below shows the pipeline to obtain layer segmentation from Diffusion MRI data.
 
-![Fig 1:](https://user-images.githubusercontent.com/11638664/172012776-f54e7a02-44d2-4152-b8d7-9b6d692d4f53.png)
+![Fig 1](https://user-images.githubusercontent.com/11638664/172012776-f54e7a02-44d2-4152-b8d7-9b6d692d4f53.png) Fig 1: dfasf
 
 
 
