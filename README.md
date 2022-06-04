@@ -10,9 +10,7 @@ cortex into layers by applying k-means clustering. The results were compared wit
 
 Figure 2 below shows the results of clustering some regions in two layers (superficial and deep).
 
-<p align="center">
   ![Fig2](https://user-images.githubusercontent.com/11638664/172013948-ab5d2221-c74b-4b10-970c-a2575ccaae58.png) Fig. 2: Clustering results of some axial sections of a subject. The results of a section of regions FA, OB, OC and PC are presented.
-</p>
 
 
 
