@@ -5,7 +5,9 @@ This project is to segment the cerebral cortex into layers using diffusion MRI d
 
 The Figure below shows the pipeline to obtain layer segmentation from Diffusion MRI data.
 
-![This is an image]([https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/JieZhang11/LayerdMRI/files/8838105/structure.pdf))
+![Mesa de trabajo 1](https://user-images.githubusercontent.com/11638664/172012532-7eafbd7f-e584-4375-a1b1-c47c429db3eb.png)
+
+
 
 ## Dependencies
 It needs the following software: Freesurfer, Mrtrix, LAYNII, python, and Matlab. Some Matlab codes about spherical harmonic (euler2rotationMatrix.m, getSHrotMtx.m, getTdesign.m, SphHarmonic.m, t_designs_1_21.mat) need be downloaded at https://github.com/polarch/Spherical-Harmonic-Transform. lh.colortable.txt, rh.colortable.txt, lh.economo.gcs, and rh.economo.gcs need to be downloaded from the Supplementary material in  
