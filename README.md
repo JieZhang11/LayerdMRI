@@ -1,5 +1,7 @@
 # LayerdMRI
-This project is to segment the cerebral cortex into layers using diffusion MRI based on von Economo atlas. 
+This project is to segment the cerebral cortex into layers using diffusion MRI data based on von Economo atlas as presented in the paper:
+
+"Cerebral Cortex Layer Segmentation Using Diffusion MRI in vivo with Applications to Laminar Connections and Working Memory Analysis", Jie Zhang, Zhe Sun, Feng Duan, Liang Shi, Yu Zhang, Jordi Solé-Casals1, and Cesar F. Caiafa, {\it xxxxx xxxx}, xx, xx, 2022.
 
 ## Dependencies
 It needs the following software: Freesurfer, Mrtrix, LAYNII, python, and Matlab. Some Matlab codes about spherical harmonic (euler2rotationMatrix.m, getSHrotMtx.m, getTdesign.m, SphHarmonic.m, t_designs_1_21.mat) need be downloaded at https://github.com/polarch/Spherical-Harmonic-Transform. lh.colortable.txt, rh.colortable.txt, lh.economo.gcs, and rh.economo.gcs need to be downloaded from the Supplementary material in  
