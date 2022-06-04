@@ -37,9 +37,6 @@ After that, you will get a parcellation image based on von Economo atlas economo
 * Finally, run Matlab function LNthickness. You will get layer thickness in .mat format.
 
 ## Citations
-Please cite our paper (below) if you use this method:
+Please cite the following paper if you use this method:
 > Jie Zhang, Zhe Sun, Feng Duan, Liang Shi, Yu Zhang, Jordi Solé-Casals1, and Cesar F. Caiafa. Cerebral Cortex Layer Segmentation Using Diffusion MRI in vivo with Applications to Laminar Connections and Working Memory Analysis, , *xxxxx xxxx*, xx, xx, 2022 (under review).
 
-> Scholtens LH, de Reus MA, de Lange SC, Schmidt R, van den Heuvel MP. An MRI Von Economo - Koskinas atlas. Neuroimage. 2018 Apr 15;170:249-256. doi: 10.1016/j.neuroimage.2016.12.069
-
-> Archontis Politis, Microphone array processing for parametric spatial audio techniques, 2016 Doctoral Dissertation, Department of Signal Processing and Acoustics, Aalto University, Finland
