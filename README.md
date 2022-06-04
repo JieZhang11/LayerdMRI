@@ -1,7 +1,7 @@
 # Layer-dMRI
-This project goal is to segment the cerebral cortex into layers using diffusion MRI data based on von Economo atlas as presented in the paper:
+The goal of the project is to segment the cerebral cortex into layers using diffusion MRI data based on von Economo atlas as presented in the paper:
 
-> "Cerebral Cortex Layer Segmentation Using Diffusion MRI in vivo with Applications to Laminar Connections and Working Memory Analysis", Jie Zhang, Zhe Sun, Feng Duan, Liang Shi, Yu Zhang, Jordi Solé-Casals1, and Cesar F. Caiafa, *xxxxx xxxx*, xx, xx, 2022 (under review).
+> "Cerebral Cortex Layer Segmentation Using Diffusion MRI in vivo with Applications to Laminar Connections and Working Memory Analysis", Jie Zhang, Zhe Sun, Feng Duan, Liang Shi, Yu Zhang, Jordi Solé-Casals and Cesar F. Caiafa, *xxxxx xxxx*, xx, xx, 2022 (under review).
 
 Figure 1 below shows the pipeline to obtain the layer segmentation of cerebral cortex using in vivo Diffusion MRI data.
 
@@ -10,7 +10,7 @@ Fig. 1: Flow chart of the used method. First, we used preprocessed dMRI data to 
 
 
 
-Figure 2 below shows the results of clustering some regions in two layers (superficial and deep).
+Figure 2 below shows the results of clustering some regions in two layers (superficial and deep layers).
 
 <p align="center">
 <img width="600" src="https://user-images.githubusercontent.com/11638664/172013948-ab5d2221-c74b-4b10-970c-a2575ccaae58.png" alt="Material Bread logo">
@@ -22,12 +22,12 @@ Figure 2 below shows the results of clustering some regions in two layers (super
 ## Dependencies
 This Matlab tool requires using the following software: Freesurfer, Mrtrix, LAYNII, python. 
 
-Some Matlab codes about spherical harmonic (euler2rotationMatrix.m, getSHrotMtx.m, getTdesign.m, SphHarmonic.m, t_designs_1_21.mat) need be downloaded at https://github.com/polarch/Spherical-Harmonic-Transform. lh.colortable.txt, rh.colortable.txt, lh.economo.gcs, and rh.economo.gcs need to be downloaded from the Supplementary material in  
+Some Matlab scripts related to the spherical harmonic (euler2rotationMatrix.m, getSHrotMtx.m, getTdesign.m, SphHarmonic.m, t_designs_1_21.mat) need be downloaded at https://github.com/polarch/Spherical-Harmonic-Transform. lh.colortable.txt, rh.colortable.txt, lh.economo.gcs, and rh.economo.gcs need to be downloaded from the Supplementary material in  
 > Scholtens LH, de Reus MA, de Lange SC, Schmidt R, van den Heuvel MP. An MRI Von Economo - Koskinas atlas. Neuroimage. 2018 Apr 15;170:249-256. doi: 10.1016/j.neuroimage.2016.12.069
 
 ## Running
-1. Download all the codes in a directory, including colortable.txt and economo.gcs. Prepare preprocessed dMRI and T1 data (T1w.nii.gz and data.nii.gz) in the same size and resolution. Change directories' names in preprocess.sh, and run it. 
-After that, you will get a parcellation image based on von economo atlas economo.nii, ADC image adc.nii, and spherical harmonics coefficients image sh_adc.nii.
+1. Download all the scripts in a directory, including colortable.txt and economo.gcs. Prepare preprocessed dMRI and T1 data (T1w.nii.gz and data.nii.gz) of the same size and resolution. Change directories' names in preprocess.sh, and run it. 
+After that, you will get a parcellation image based on von Economo atlas economo.nii, ADC image adc.nii, and spherical harmonics coefficients image sh_adc.nii.
 
 2. Enter the data directory, add the code directory into the Matlab path, and run RUN.m. You will get two directories: all_result_kmeans (containing K-means image in .nii format before and after adding GFA when k=2) and all_result_mat (containing features and K-means results when k=2-15 in .mat format). 
 
@@ -37,6 +37,7 @@ After that, you will get a parcellation image based on von economo atlas economo
 * Finally, run Matlab function LNthickness. You will get layer thickness in .mat format.
 
 ## Citations
+Please cite our paper (below) if you use this method:
 > Jie Zhang, Zhe Sun, Feng Duan, Liang Shi, Yu Zhang, Jordi Solé-Casals1, and Cesar F. Caiafa. Cerebral Cortex Layer Segmentation Using Diffusion MRI in vivo with Applications to Laminar Connections and Working Memory Analysis, , *xxxxx xxxx*, xx, xx, 2022 (under review).
 
 > Scholtens LH, de Reus MA, de Lange SC, Schmidt R, van den Heuvel MP. An MRI Von Economo - Koskinas atlas. Neuroimage. 2018 Apr 15;170:249-256. doi: 10.1016/j.neuroimage.2016.12.069
