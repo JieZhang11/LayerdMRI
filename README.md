@@ -1,7 +1,7 @@
 # LayerdMRI
 This project goal is to segment the cerebral cortex into layers using diffusion MRI data based on von Economo atlas as presented in the paper:
 
-"Cerebral Cortex Layer Segmentation Using Diffusion MRI in vivo with Applications to Laminar Connections and Working Memory Analysis", Jie Zhang, Zhe Sun, Feng Duan, Liang Shi, Yu Zhang, Jordi Solé-Casals1, and Cesar F. Caiafa, *xxxxx xxxx*, xx, xx, 2022 (under review).
+> "Cerebral Cortex Layer Segmentation Using Diffusion MRI in vivo with Applications to Laminar Connections and Working Memory Analysis", Jie Zhang, Zhe Sun, Feng Duan, Liang Shi, Yu Zhang, Jordi Solé-Casals1, and Cesar F. Caiafa, *xxxxx xxxx*, xx, xx, 2022 (under review).
 
 Figure 1 below shows the pipeline to obtain the layer segmentation of cerebral cortex using in vivo Diffusion MRI data.
 
