@@ -18,13 +18,11 @@ Figure 2 below shows the results of clustering some regions in two layers (super
   Fig. 2: Clustering results of some axial sections of a subject. The results of a section of regions FA, OB, OC and PC are presented.
 </p>
   
-  
-
-
-
 
 ## Dependencies
-It needs the following software: Freesurfer, Mrtrix, LAYNII, python, and Matlab. Some Matlab codes about spherical harmonic (euler2rotationMatrix.m, getSHrotMtx.m, getTdesign.m, SphHarmonic.m, t_designs_1_21.mat) need be downloaded at https://github.com/polarch/Spherical-Harmonic-Transform. lh.colortable.txt, rh.colortable.txt, lh.economo.gcs, and rh.economo.gcs need to be downloaded from the Supplementary material in  
+This Matlab tool requires using the following software: Freesurfer, Mrtrix, LAYNII, python. 
+
+Some Matlab codes about spherical harmonic (euler2rotationMatrix.m, getSHrotMtx.m, getTdesign.m, SphHarmonic.m, t_designs_1_21.mat) need be downloaded at https://github.com/polarch/Spherical-Harmonic-Transform. lh.colortable.txt, rh.colortable.txt, lh.economo.gcs, and rh.economo.gcs need to be downloaded from the Supplementary material in  
 > Scholtens LH, de Reus MA, de Lange SC, Schmidt R, van den Heuvel MP. An MRI Von Economo - Koskinas atlas. Neuroimage. 2018 Apr 15;170:249-256. doi: 10.1016/j.neuroimage.2016.12.069
 
 ## Running
@@ -39,6 +37,8 @@ After that, you will get a parcellation image based on von economo atlas economo
 * Finally, run Matlab function LNthickness. You will get layer thickness in .mat format.
 
 ## Citations
+> Jie Zhang, Zhe Sun, Feng Duan, Liang Shi, Yu Zhang, Jordi Solé-Casals1, and Cesar F. Caiafa. Cerebral Cortex Layer Segmentation Using Diffusion MRI in vivo with Applications to Laminar Connections and Working Memory Analysis, , *xxxxx xxxx*, xx, xx, 2022 (under review).
+
 > Scholtens LH, de Reus MA, de Lange SC, Schmidt R, van den Heuvel MP. An MRI Von Economo - Koskinas atlas. Neuroimage. 2018 Apr 15;170:249-256. doi: 10.1016/j.neuroimage.2016.12.069
 
 > Archontis Politis, Microphone array processing for parametric spatial audio techniques, 2016 Doctoral Dissertation, Department of Signal Processing and Acoustics, Aalto University, Finland
