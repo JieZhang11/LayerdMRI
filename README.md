@@ -18,4 +18,5 @@ After that, you will get a parcellation image based on von economo atlas economo
 
 ## Citations
 > Scholtens LH, de Reus MA, de Lange SC, Schmidt R, van den Heuvel MP. An MRI Von Economo - Koskinas atlas. Neuroimage. 2018 Apr 15;170:249-256. doi: 10.1016/j.neuroimage.2016.12.069
+
 > Archontis Politis, Microphone array processing for parametric spatial audio techniques, 2016 Doctoral Dissertation, Department of Signal Processing and Acoustics, Aalto University, Finland
