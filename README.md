@@ -5,7 +5,7 @@ This project is to segment the cerebral cortex into layers using diffusion MRI d
 
 The Figure below shows the pipeline to obtain layer segmentation from Diffusion MRI data.
 
-![Mesa de trabajo 1](https://user-images.githubusercontent.com/11638664/172012776-f54e7a02-44d2-4152-b8d7-9b6d692d4f53.png)
+![Fig 1:](https://user-images.githubusercontent.com/11638664/172012776-f54e7a02-44d2-4152-b8d7-9b6d692d4f53.png)
 
 
 
