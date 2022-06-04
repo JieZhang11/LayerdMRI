@@ -5,13 +5,12 @@ This project is to segment the cerebral cortex into layers using diffusion MRI d
 
 Figure 1 below shows the pipeline to obtain layer segmentation from Diffusion MRI data.
 
-![Fig 1](https://user-images.githubusercontent.com/11638664/172012776-f54e7a02-44d2-4152-b8d7-9b6d692d4f53.png) Fig 1: Flow chart of the used method. First, we used preprocessed dMRI data to extract features from ADC and generalized fractional anisotropy for segmenting the
+![Fig 1](https://user-images.githubusercontent.com/11638664/172012776-f54e7a02-44d2-4152-b8d7-9b6d692d4f53.png) Fig. 1: Flow chart of the used method. First, we used preprocessed dMRI data to extract features from ADC and generalized fractional anisotropy for segmenting the
 cortex into layers by applying k-means clustering. The results were compared with histological data, with the superficial layer corresponding to Brodmann’s 1 to 3 layers and the deep layer corresponding to 4 to 6 layers. Finally, the results were used for laminar connections estimation and laminar analysis of working memory.
 
+Figure 2 below shows the results of clustering some regions in two layers (superficial and deep).
 
-
-
-![Fig2](https://user-images.githubusercontent.com/11638664/172013890-a233a6e9-875d-451a-ab39-efad2fc87355.png)
+![Fig2](https://user-images.githubusercontent.com/11638664/172013948-ab5d2221-c74b-4b10-970c-a2575ccaae58.png) Fig. 2: Clustering results of some axial sections of a subject. The results of a section of regions FA, OB, OC and PC are presented.
 
 
 ## Dependencies
