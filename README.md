@@ -12,7 +12,7 @@ Fig. 1: Flow chart of the used method. First, we used preprocessed dMRI data to 
 Figure 2 below shows the results of clustering some regions in two layers (superficial and deep).
 
 <p align="center">
-<img width="200" src="https://user-images.githubusercontent.com/11638664/172013948-ab5d2221-c74b-4b10-970c-a2575ccaae58.png" alt="Material Bread logo">
+<img width="500" src="https://user-images.githubusercontent.com/11638664/172013948-ab5d2221-c74b-4b10-970c-a2575ccaae58.png" alt="Material Bread logo">
 </p>
 
 ![Fig2](https://user-images.githubusercontent.com/11638664/172013948-ab5d2221-c74b-4b10-970c-a2575ccaae58.png) 
