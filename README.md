@@ -20,7 +20,7 @@ Figure 2 below shows the results of clustering some regions in two layers (super
   
 
 ## Dependencies
-This Matlab tool requires using the following software: Freesurfer, Mrtrix, LAYNII, python. 
+This Matlab tool requires using the following software: Freesurfer, Mrtrix3, LAYNII, python. 
 
 Some Matlab scripts related to the spherical harmonic (euler2rotationMatrix.m, getSHrotMtx.m, getTdesign.m, SphHarmonic.m, t_designs_1_21.mat) need be downloaded at https://github.com/polarch/Spherical-Harmonic-Transform. lh.colortable.txt, rh.colortable.txt, lh.economo.gcs, and rh.economo.gcs need to be downloaded from the Supplementary material in  
 > Scholtens LH, de Reus MA, de Lange SC, Schmidt R, van den Heuvel MP. An MRI Von Economo - Koskinas atlas. Neuroimage. 2018 Apr 15;170:249-256. doi: 10.1016/j.neuroimage.2016.12.069
