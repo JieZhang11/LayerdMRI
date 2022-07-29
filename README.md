@@ -1,7 +1,7 @@
 # Layer-dMRI
 The goal of the project is to segment the cerebral cortex into layers using diffusion MRI data based on von Economo atlas as presented in the paper:
 
-> Jie Zhang, Zhe Sun, Feng Duan, Liang Shi, Yu Zhang, Jordi Solé-Casals and Cesar F. Caiafa. Cerebral Cortex Layer Segmentation Using Diffusion MRI in vivo with Applications to Laminar Connections and Working Memory Analysis, , *xxxxx xxxx*, xx, xx, 2022 (under review).
+> Zhang, J., Sun, Z., Duan, F., Shi, L., Zhang, Y., Solé-Casals, J., & Caiafa, C. F. (2022). Cerebral cortex layer segmentation using diffusion magnetic resonance imaging in vivo with applications to laminar connections and working memory analysis. Human Brain Mapping, 1– 15. https://doi.org/10.1002/hbm.25998
 
 Figure 1 below shows the pipeline to obtain the layer segmentation of cerebral cortex using in vivo Diffusion MRI data.
 
