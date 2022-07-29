@@ -38,5 +38,5 @@ After that, you will get a parcellation image based on von Economo atlas economo
 
 ## Citations
 Please cite the following paper if you use this method:
-> Zhang, J., Sun, Z., Duan, F., Shi, L., Zhang, Y., Solé-Casals, J., & Caiafa, C. F. (2022). Cerebral cortex layer segmentation using diffusion magnetic resonance imaging in vivo with applications to laminar connections and working memory analysis. Human Brain Mapping, 1– 15. \url{https://doi.org/10.1002/hbm.25998}
+> Zhang, J., Sun, Z., Duan, F., Shi, L., Zhang, Y., Solé-Casals, J., & Caiafa, C. F. (2022). Cerebral cortex layer segmentation using diffusion magnetic resonance imaging in vivo with applications to laminar connections and working memory analysis. Human Brain Mapping, 1– 15. https://doi.org/10.1002/hbm.25998
 
